@@ -1,0 +1,14 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.fa-cloud-sun.main {
+  font-size: 40px;
+}
+
+.input-group {
+  width: 50%;
+}

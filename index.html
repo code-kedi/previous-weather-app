@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonja's Weather App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ce4a25167e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="Type a city..."
+          autocomplete="off"
+          id="search-text-input"
+        />
+        <input type="submit" value="Search" />
+      </form>
+      <button>Current location</button>
+      <div class="row">
+        <div class="col-1">
+          <i class="fas fa-cloud-sun main"></i>
+        </div>
+        <div class="col-2">
+          <h2 id="temperature">
+            23°C
+          </h2>
+          <p class="temperature-description">Cloudy</p>
+        </div>
+        <div class="col-2" id="current-date">
+          <p>Sunday, Aug 30</p>
+        </div>
+        <div class="col-6">
+          <h1 id="current-city">Lisbon, Portugal</h1>
+        </div>
+      </div>
+
+      <div class="row row-cols-5">
+        <div class="col">
+          Monday
+        </div>
+        <div class="col">
+          Tuesday
+        </div>
+        <div class="col">
+          Wednesday
+        </div>
+        <div class="col">
+          Thursday
+        </div>
+        <div class="col">
+          Friday
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-sun"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-sun"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          22°
+        </div>
+        <div class="col">
+          22°
+        </div>
+        <div class="col">
+          23°
+        </div>
+        <div class="col">
+          22°
+        </div>
+        <div class="col">
+          21°
+        </div>
+      </div>
+    </div>
+   <script src="src/index.js"></script>
+  </body>
+</html>
