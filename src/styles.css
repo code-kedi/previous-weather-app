@@ -12,3 +12,8 @@ body {
 .input-group {
   width: 50%;
 }
+
+.link-to-github {
+  font-size: 12px;
+  margin-top: 20px;
+}
